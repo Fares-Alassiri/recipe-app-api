@@ -23,4 +23,3 @@ class CalcTests(SimpleTestCase):
         y = 15
         res = calc.sub(x, y)
         self.assertEqual(res, 5)
-        
