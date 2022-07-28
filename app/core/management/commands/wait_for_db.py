@@ -1,5 +1,6 @@
 """
-Django command to wait for the database to be ready before connecting the app to the database.
+Django command to wait for the database to be
+ready before connecting the app to the database.
 """
 import time
 
@@ -8,6 +9,7 @@ from psycopg2 import OperationalError as Psycopg2OpError
 from django.db.utils import OperationalError
 
 from django.core.management.base import BaseCommand
+
 
 class Command(BaseCommand):
     """Django command to wait for the database."""
